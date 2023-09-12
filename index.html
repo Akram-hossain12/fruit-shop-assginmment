@@ -40,9 +40,9 @@
 </head>
 
 <body>
-    <header class="lg:w-3/4 mx-auto ">
+    <header class="lg:w-3/4 md:max-w-full max-w-full mx-auto  ">
         <nav class="bg-clifford lg:px-10 py-3 rounded-2xl m-3">
-            <div class="navbar">
+            <div class="navbar ">
                 <div class="navbar-start">
                     <div class="dropdown lg:hidden">
                         <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -53,7 +53,7 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-white">
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52 lg:text-white">
                             <li><a>Home</a></li>
                             <li><a>Shop</a></li>
                             <li><a>About</a></li>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="hidden lg:flex">
 
-                        <ul class="menu menu-horizontal text-white text-xs lg:text-xl">
+                        <ul class="menu menu-horizontal text-white text-xs md:text-xs lg:text-xl">
                             <li><a>Home</a></li>
                             <li><a>Shop</a></li>
                             <li><a>About</a></li>
@@ -80,7 +80,7 @@
                     <div class="form-control ">
 
                         <input type="text" placeholder="Search"
-                            class="input input-bordered w-24 md:w-auto bg-white rounded-xl " />
+                            class="input input-bordered w-24 md:w-auto bg-white rounded-xl fa-solid" />
 
                     </div>
                 </div>
@@ -88,7 +88,7 @@
 
         </nav>
 
-        <banner class="">
+        <banner class=" ">
             <div class="carousel">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="assets/images/banner1.png" class="w-full" />
@@ -98,11 +98,11 @@
                     </div>
                     <div class="absolute  transform -translate-y-1/2 text-center left-20 md:left-52 
                     lg:left-52  top-1/2">
-                        <h1 class="text-white text-3xl lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep
+                        <h1 class="text-white  text-3xl  lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep
                         </h1>
-                        <p class="lg:text-xl text-xs text-white font-semibold my-2 lg:my-6">We supply highly quality
+                        <p class="lg:text-xl text-xs text-white font-semibold my-2 lg:my-6 ">We supply highly quality
                             organic products</p>
-                        <button class="px-5 lg:px-8 py-3 lg:py-5 bg-clifford text-white text-xl rounded-xl">shop
+                        <button class=" px-5 lg:px-8 py-3 lg:py-5 bg-clifford text-white text-xl rounded-xl">shop
                             now</button>
                     </div>
                 </div>
@@ -156,6 +156,15 @@
                 </div>
             </div>
         </banner>
+        <section>
+             <div class=' hidden lg:flex justify-center h-36 w-[1000px] mx-auto bg-white -mt-20  relative z-50 rounded-xl drop-shadow-lg'>
+                <img src="assets/images/fruit1.png" alt="">
+                 <img src="assets/images/fruit2.png" alt="">
+                 <img src="assets/images/fruit3.png" alt="">
+                 <img src="assets/images/fruit4.png" alt="">
+                 <img src="assets/images/fruit5.png" alt="">
+             </div>
+        </section>
     </header>
 
     <main>
@@ -406,9 +415,9 @@
             <div class="hero rounded-lg" style="background-image: url(assets/images/team.png);">
                 <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
                 <div class="hero-content text-neutral-content my-10">
-                    <div class="max-w-xl">
-                        <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
-                        <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece
+                    <div class="">
+                        <h1 class="mb-5 text-5xl font-bold text-center">Meet the team section</h1>
+                        <p class="mb-5 text-center ">Contrary to popular belief, is not simply random text. <br> It has roots in a piece
                             of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                         <div class="lg:flex justify-center items-center mt-10">
                             <div class="text-center mb-5">
@@ -424,7 +433,7 @@
 
                             <div class="text-center mx-5">
                                 <img class="mx-20 lg:mx-0" src="assets/images/member2.png" alt="">
-                                <h1 class="text-2xl font-bold">Vappa Raj</h1>
+                                <h1 class="text-2xl font-bold">Mrs. Jasmin</h1>
                                 <p>Fruits Expert</p>
                                 <div class="text-clifford">
                                     <i class="fa-brands fa-facebook"></i>
@@ -435,7 +444,7 @@
 
                             <div class="text-center lg:mt-0 mt-5">
                                 <img class="mx-24 lg:mx-0" src="assets/images/member3.png" alt="">
-                                <h1 class="text-2xl font-bold">Vappa Raj</h1>
+                                <h1 class="text-2xl font-bold">Jason roy</h1>
                                 <p>Fruits Expert</p>
                                 <div class="text-clifford">
                                     <i class="fa-brands fa-facebook"></i>
@@ -446,7 +455,7 @@
 
                             <div class="text-center ml-5 lg:mt-0 mt-5">
                                 <img class="mx-20 lg:mx-0" src="assets/images/member4.png" alt="">
-                                <h1 class="text-2xl font-bold">Vappa Raj</h1>
+                                <h1 class="text-2xl font-bold">Rohi rakhi</h1>
                                 <p>Fruits Expert</p>
                                 <div class="text-clifford">
                                     <i class="fa-brands fa-facebook"></i>
@@ -535,7 +544,7 @@
         </section>
     </main>
 
-    <footer class="footer footer-center px-4 py-7 lg:p-14 bg-black text-primary-content">
+    <footer class="footer footer-center px-0 py-7 lg:p-14 bg-black text-primary-content">
         <aside>
 
             <div class="flex justify-center items-center">
